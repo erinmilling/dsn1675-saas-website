@@ -19,3 +19,6 @@ header{
 .masthead{
 	background-image: url("../images/cheetah.jpg");
 }
+.buttons{
+	border: 1px solid black;
+}
