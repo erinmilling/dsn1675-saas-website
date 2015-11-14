@@ -23,7 +23,7 @@ header{
 	border: 1px solid black;
 }
 
-.nav{
+.nav {
 	display: none;
 }
 
@@ -37,8 +37,15 @@ header{
 .nav-check:checked ~ .nav-label {
 	background-color: grey;
 }
- @media only screen and (min-width: 25em) {
+.nav-label{
+	cursor: pointer;
+	font-size: 1.25rem;
+	display: inline-block;
+	width: 40px;
+}
+.nav-label img{
+	display: block;
+	width: 100%;
+}
+}
 
- .nav {
- 	display: inline-block;
- }
