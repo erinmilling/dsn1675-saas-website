@@ -43,10 +43,15 @@ header, footer{
 	font-size: 1.25rem;
 	display: inline-block;
 	width: 40px;
+	float: right;
 }
 .nav-label img{
 	display: block;
 	width: 100%;
+
+}
+.logo{
+	width: 30%;
 }
 }
 
