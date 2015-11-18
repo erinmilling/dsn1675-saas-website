@@ -12,7 +12,7 @@ html {
   box-sizing: inherit;
  }
 
-header{
+header, footer{
 	background-color: #7B7979;
 }
 
