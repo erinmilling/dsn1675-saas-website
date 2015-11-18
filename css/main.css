@@ -26,6 +26,8 @@ header, footer{
 
 .nav {
 	display: none;
+	float: right;
+
 }
 
 .nav-check:checked ~ .nav {
@@ -52,6 +54,12 @@ header, footer{
 }
 .logo{
 	width: 30%;
+}
+.nav a{
+	display: block;
+	text-decoration: none;
+	padding: 1.125rem;
+
 }
 }
 
