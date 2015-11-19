@@ -16,8 +16,9 @@ header, footer{
 	background-color: #7B7979;
 }
 
-.masthead{
+.banner{
 	background-image: url("../images/cheetah.jpg");
+	height:20rem;
 }
 .buttons{
 	border: 1px solid black;
