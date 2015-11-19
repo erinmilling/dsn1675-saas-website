@@ -69,4 +69,12 @@ header, footer{
 .logo{
 	width: 15%;
 }
-
+.grey{
+	background-color: #B3B3B3;
+}
+.medgrey{
+	background-color: #999999;
+}
+.lightgrey{
+	background-color: #B3B3B3;
+}
