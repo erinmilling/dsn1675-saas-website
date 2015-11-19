@@ -22,7 +22,7 @@ header, footer{
 }
 .buttons{
 	border: 1px solid black;
-	padding: 20px;
+	padding: 15px;
 	text-decoration: none;
 }
 
@@ -53,9 +53,6 @@ header, footer{
 	width: 100%;
 
 }
-.logo{
-	width: 30%;
-}
 .nav a{
 	display: block;
 	text-decoration: none;
@@ -67,5 +64,8 @@ header, footer{
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 1rem;
+}
+.logo{
+	width: 15%;
 }
 
