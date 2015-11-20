@@ -13,13 +13,17 @@
 </head>
 
 <body>
+  <ul class="skip-links">
+     <li><a href="#startfree">Skip to Main Content</a></li>
+     <li><a href="#nav">Skip to Navigation</a></li>
+  </ul>
 
-  <header class="grid">
+  <header class="grid" role="banner">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
     <img class="logo unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-t" src="images/magentalogo.png" alt="">
   
       
-      <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+      <nav id="nav" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1" role="navigation">
         <input type="checkbox" class="nav-check" id="nav-check">
   
         <label class="nav-label" for="nav-check">
@@ -35,11 +39,11 @@
     </div>
 </header>
 
-  <main class="grid">
+  <main class="grid" role="main">
     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island-2 banner text-center">
       <h1>Take the Tour</h1>
           <p>Easy steps to animating your logo</p>
-         <a href="signup.html">Start Free</a>
+         <a id="startfree" href="signup.html">Start Free</a>
     </div>
   
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 text-center island-2">

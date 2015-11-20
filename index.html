@@ -13,12 +13,18 @@
 </head>
 
 <body>
-<header class="grid">
+
+	<ul class="skip-links">
+		<li><a href="#startfree">Skip to Main Content</a></li>
+		<li><a href="#nav">Skip to Navigation</a></li>
+	</ul>
+
+<header class="grid" role="banner">
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 		<img class="logo unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-t" src="images/magentalogo.png" alt="">
 
 		
-		<nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+		<nav id="nav" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1" role="navigation">
 			<input type="checkbox" class="nav-check" id="nav-check">
 
 			<label class="nav-label" for="nav-check">
@@ -35,13 +41,13 @@
 
 </header>
 
-<main>
+<main role="main">
     <div class="grid unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island-2 banner text-center">
 		<h1>Customize. Animate. Repeat.</h1>
 
 		<p>MyMotion allows you to animate your logos again and again</p>
 
-		<a href="signup.html">Start Free</a>
+		<a id="startfree" href="signup.html">Start Free</a>
 
 	</div>
 
