@@ -28,6 +28,8 @@ header, footer{
 
 .nav {
 	display: none;
+	margin: 0;
+	padding: 0;
 	float: right;
 }
 
@@ -81,3 +83,24 @@ header, footer{
 .numbers{
 	width: 20%;
 }
+footer{
+	width: 100%;
+}
+
+ @media only screen and (min-width: 25em) {
+
+.nav label{
+	display: none;
+}
+
+.nav-check:checked ~ .nav{
+	display: none;
+}
+.nav-label img{
+	display: none;
+}
+.nav{
+	display: inline-block;
+}
+
+
