@@ -70,6 +70,8 @@ header, footer{
 }
 .logo{
 	width: 15%;
+	margin: 0;
+
 }
 .grey{
 	background-color: #B3B3B3;
