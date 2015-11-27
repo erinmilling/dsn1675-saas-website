@@ -27,9 +27,9 @@ header{
 }
 
 .buttons{
-	border: 1px solid black;
 	padding: 15px;
 	text-decoration: none;
+	background-color: #C2D5D2; 
 }
 
 .nav {
