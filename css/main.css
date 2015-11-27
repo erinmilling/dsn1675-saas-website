@@ -7,19 +7,25 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 'futura', sans-serif;
+  height: 100%;
 }
 *, *::before, *::after {
   box-sizing: inherit;
  }
+body{
+	height: 100%;
+}
 
-header, footer{
-	background-color: #7B7979;
+header{
+	background-color: #C2D5D2;
 }
 
 .banner{
-	background-image: url("../images/cheetah.jpg");
-	height:20rem;
+	background-image: url("../images/cheetah.png");
+	background-size: auto 100%;
+	background-position: center;
 }
+
 .buttons{
 	border: 1px solid black;
 	padding: 15px;
@@ -95,6 +101,9 @@ footer{
 .pay{
 	background-color: darkgrey;
 	text-align: center;
+}
+footer{
+	background-color: #414352;
 }
  @media only screen and (min-width: 25em) {
 
