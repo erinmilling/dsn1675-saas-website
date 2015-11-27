@@ -197,6 +197,9 @@ ol {
 .pad-top, .pad-t {
   padding-top: 1.3rem;
 }
+.pad-l{
+  padding-left: 1em;
+}
 
 .pad-bottom, .pad-b {
   padding-bottom: 1.3rem;

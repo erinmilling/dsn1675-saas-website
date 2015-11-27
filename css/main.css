@@ -49,7 +49,7 @@ header{
 	top: -3em;
 }
 .nav-check:checked ~ .nav-label {
-	background-color: grey;
+	background-color: #934D6A;
 }
 .nav-label{
 	cursor: pointer;
