@@ -69,16 +69,20 @@ header{
 	padding: 1.125rem;
 
 }
-.signup{
-	text-decoration: none;
-	border: 1px solid black;
-	border-radius: 10px;
-	padding: 1rem;
-	margin-left: 1rem;
-}
 .logo{
 	width: 15%;
 	margin: 0;
+
+}
+.transparent{
+	padding: .5rem;
+	background-color:rgba(147, 77, 107, 0.5);
+}
+.startbutton {
+	color: #fff;
+	text-decoration: none;
+	padding: .75rem;
+	background-color: #C2D5D2;
 
 }
 .grey{
