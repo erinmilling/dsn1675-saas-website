@@ -86,13 +86,13 @@ header{
 
 }
 .grey{
-	background-color: #B3B3B3;
+	background-color: #778692;
 }
 .medgrey{
-	background-color: #999999;
+	background-color: #414352;
 }
 .lightgrey{
-	background-color: #B3B3B3;
+	background-color: #934D6A;
 }
 .numbers{
 	width: 20%;
@@ -105,8 +105,14 @@ footer{
 	float: right;
 }
 .pay{
-	background-color: darkgrey;
+	color: #778692;
 	text-align: center;
+}
+h2{
+	color: #fff;
+}
+p{
+	color: #C2D5D2;
 }
 .copyright{
 	text-align: center;
