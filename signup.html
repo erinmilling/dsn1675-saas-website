@@ -36,7 +36,58 @@
 </header>
 
 <main>
-<p class="island-1-2"> SIGN UP COMING UP YO!!!</p>
+  <form action="http://formspree.io/erin.mill123@gmail.com" method="post">
+
+  <div>
+  <label for="name">Name</label>
+    
+    <input id="name" required name="name" name="name">
+  </div>
+
+  <div>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email">
+  </div>
+
+  <div>
+  <label for="password">Password</label>
+    <input id="password" type="password" required name="password" name="password">
+  </div>
+
+  <div>
+  <label for="confirmpassword">Confirm Password</label> 
+    <input id="confirmpassword" type="confirmpassword" required name="confirmpassword" name="confirmpassword">
+  </div>
+
+    <fieldset>
+    <legend>Method of Payment</legend>
+
+    <input id="visa" type="radio" name="feels">
+    <label for="visa">Visa</label>
+
+     <input id="mastercard" type="radio" name="feels">
+    <label for="mastercard">Mastercard</label>
+
+     <input id="debit" type="radio" name="feels">
+    <label for="debit">Debit</label>
+
+    <div>
+      <label for="card">Card Number</label> 
+      <input id="card" type="confirmpassword" required name="card" name="card">
+    </div>
+
+    <div>
+      <label for="expire">Expiry (mm/yr) </label> 
+      <input id="expire" type="expire" required name="expire" name="expire">
+    </div>
+
+  </fieldset>
+
+  <div>
+    <button class="startbutton type="submit">Sign Up</button>
+  </div>
+
+</form>
 </main>
 </body>
 </html>

@@ -114,9 +114,19 @@ h2{
 p{
 	color: #C2D5D2;
 }
+form{
+	padding: 1rem;
+}
+button{
+	border: none;
+}
 .copyright{
 	text-align: center;
 	color: #C2D5D2;
+}
+.contact{
+	text-decoration: underline;
+
 }
 footer{
 	background-color: #414352;
