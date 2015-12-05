@@ -72,6 +72,7 @@ header{
 .logo{
 	width: 15%;
 	margin: 0;
+	display: inline-block;
 
 }
 .transparent{
@@ -121,7 +122,6 @@ button{
 	border: none;
 }
 .copyright{
-	text-align: center;
 	color: #C2D5D2;
 }
 .contact{
