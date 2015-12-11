@@ -121,8 +121,14 @@ form{
 button{
 	border: none;
 }
-.copyright{
+.light-text{
 	color: #C2D5D2;
+}
+.purptext{
+	color: #934d6a;
+}
+fieldset {
+	border: white solid 1px;
 }
 .contact{
 	text-decoration: underline;
