@@ -128,7 +128,10 @@ button{
 	color: #934d6a;
 }
 fieldset {
-	border: white solid 1px;
+	border: none;
+}
+.squish{
+	line-height: .5em;
 }
 .contact{
 	text-decoration: underline;
