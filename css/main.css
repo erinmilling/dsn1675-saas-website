@@ -71,6 +71,7 @@ header{
 }
 .logo{
 	width: 15%;
+	height: auto;
 	margin: 0;
 	display: inline-block;
 
