@@ -42,8 +42,13 @@
 
 </header>
 
-<main>
-  <form action="http://formspree.io/erin.mill123@gmail.com" method="post">
+<main role="main">
+
+  <h1 class="island">Signup Information</h1>
+
+    <form class= "grid gutter" action="http://formspree.io/erin.mill123@gmail.com" method="post">
+
+<div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
 
   <div>
   <label for="name" class="purptext">Name</label>
@@ -65,9 +70,10 @@
   <label for="confirmpassword" class="purptext">Confirm Password</label> 
     <input id="confirmpassword" type="password" required name="confirmpassword" name="confirmpassword">
   </div>
+</div>
 
-    <fieldset>
-    <legend class="pad-t tera purptext">Method of Payment</legend>
+    <fieldset class="grid">
+<div class="pad-t pad-b unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2"</div>
 
     <input id="visa" type="radio" name="card">
     <label for="visa" class="purptext">Visa</label>
@@ -118,14 +124,16 @@
       </div>
     </div>
 
+
   </fieldset>
 
-  <div>
-    <button class="startbutton" type="submit">Sign Up</button>
+  <div class="grid pad-l pad-b">
+    <button class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 submit startbutton" type="submit">Sign Up</button>
   </div>
 
 </form>
 </main>
+
 <footer role= "contentinfo" class="grid grid-middle light-text">
 
   <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-t pad-l">

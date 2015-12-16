@@ -85,7 +85,11 @@ header{
 	text-decoration: none;
 	padding: .75rem;
 	background-color: #C2D5D2;
-
+}
+.submit{
+	display: inline-block;
+	width: 100%;
+	margin: 0em 10em 0em 0em;
 }
 .grey{
 	background-color: #778692;
