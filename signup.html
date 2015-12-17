@@ -55,27 +55,27 @@
 
   <div>
     <label for="name" class="purptext">Name</label> 
-    <input id="name" required name="name" name="name">
+    <input id="name" name="name" required>
   </div>
 
   <div>
     <label for="email" class="purptext">Email</label>
-    <input id="email" type="email" name="email">
+    <input id="email" type="email" name="email" required>
   </div>
 
   <div>
     <label for="password" class="purptext">Password</label>
-    <input id="password" type="password" required name="password" name="password">
+    <input id="password" type="password" name="password" required>
   </div>
 
   <div>
-    <label for="confirmpassword" class="purptext">Confirm Password</label> 
-    <input id="confirmpassword" type="password" required name="confirmpassword" name="confirmpassword">
+    <label for="confirm-password" class="purptext">Confirm Password</label> 
+    <input id="confirm-password" type="password" name="confirm-password" required>
   </div>
 </div>
 
 <fieldset class="grid">
-  <div class="pad-t pad-b unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2"</div>
+  <div class="pad-t pad-b unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
 
     <input id="visa" type="radio" name="card">
     <label for="visa" class="purptext">Visa</label>
@@ -87,16 +87,19 @@
     <label for="debit" class="purptext">Debit</label>
 
     <div>
-      <label for="card" class="purptext">Card Number</label> 
-      <input id="card" type="confirmpassword" required name="card" name="card">
+      <label for="credit-card" class="purptext">Card Number</label> 
+      <input id="credit-card" type="text" name="credit-card">
+    </div>
+  </div>
+
+  <div class="purptext ">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+      <p class="lighttext push-0">Expiry</p>
     </div>
 
-  <div class="purptext">
-    <div>
-      <legend class="giga">Expiry</legend>
+    <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
         <label for="subject">Month</label>
            <select id="subject" name="_subject">
-               <option></option>
                <option>01</option>
                <option>02</option>
                <option>03</option>
@@ -112,10 +115,9 @@
             </select>
     </div>
 
-    <div>
+    <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
        <label for="subject-2">Year</label>
         <select id="subject-2" name="_subject">
-          <option></option>
           <option>2015</option>
           <option>2016</option>
           <option>2017</option>
