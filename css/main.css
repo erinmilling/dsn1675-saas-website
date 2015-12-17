@@ -165,9 +165,19 @@ footer{
 }
  @media only screen and (min-width: 60em) {
 
- .submit{
+.submit{
  	margin: 0em 10em 0em 8em;
- }
+}
 
+@media print{
 
+.footer{
+		display: none;
+}
+.nav{
+	display: none;
+}
+.social {
+	display: none;
+}
 
