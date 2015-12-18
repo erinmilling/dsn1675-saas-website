@@ -70,6 +70,9 @@ header{
 	color: #414352;
 
 }
+.nav a:hover{
+	color: #934d6a;
+}
 .logo{
 	width: 15%;
 	height: auto;
